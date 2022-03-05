@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            height: 600px;
+            border: 2px dotted salmon;
+            display: flex;
+            justify-content: flex-end;
+            text-align: center;
+            align-items: stretch;
+
+
+        }
+
+        .box {
+            font-size: 3em;
+            /* height: 200px; */
+            width: 200px;
+            border: 2px solid gray;
+            order: 3;
+        }
+
+        #box-2 {
+            flex-grow: 1;
+            order: 4;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>i am flexible right now</h1>
+    <div class="container">
+        <div class="box">Box-1</div>
+        <div id="box-2" class="box">Box-2</div>
+        <!-- <div class="box">Box-3</div>
+        <div class="box">Box-4</div> -->
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/106f405d2a.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    .container {
+        display: flex;
+        justify-content: center;
+
+
+    }
+
+    .login h1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .login {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .login input,
+    button {
+        margin-top: 10px;
+        font-size: 1.3em;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+    }
+
+    button {
+        background-color: orange;
+        font-weight: 700;
+        color: white;
+        padding: 5px 0px;
+    }
+
+    .nav-bar a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.3em;
+        margin-left: 30px;
+
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+</style>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <span>
+                <a href="">Home</a>
+                <a href="">Products</a>
+                <a href="">Something</a>
+                <a href="">About us</a>
+            </span>
+            <span>
+                <a href=""><i class="fa-regular fa-user"></i></a>
+                <a href=""><i class="fa-regular fa-share-from-square"></i></i></a>
+            </span>
+        </nav>
+    </header>
+    <section class="container">
+        <from class="login">
+            <h1>login</h1>
+            <input type="email" name="email" id="" placeholder="Enter email" required>
+            <input type="password" name="password" id="" placeholder="Enter password" required>
+            <button type="submit">Login</button>
+        </from>
+    </section>
+</body>
+
+</html>
